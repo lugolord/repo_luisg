@@ -1,0 +1,102 @@
+$font_general: 'Major Mono Display', monospace;
+
+.contactPage {
+
+    .contactPage__header {
+
+        h1 {
+            font-family: $font_general;
+            color: red;
+        }
+
+        .contactPage__headerNavDesktop {
+
+            font-family: $font_general;
+            height: 40px;
+
+            a {
+                color: black;
+            }
+
+            a:hover {
+                background-color: tomato;
+                color: white;
+            }
+
+        }
+
+        .nav-pills {
+            
+            font-family: $font_general;
+
+            .dropdown-toggle {
+                color: white;
+            }
+
+            a {
+                color: red;
+            }
+    
+            a:hover {
+                color: white;
+                background-color: red;
+            }
+
+        }
+
+    }
+    
+    .contactPage__main {
+
+        font-family: $font_general;
+
+        span {
+            display: block;
+        }
+
+        .contactPage__mainP1 {
+
+            font-family: $font_general;
+
+            background-color: tomato;
+
+            color: white;
+
+        }
+
+        .contactPage__mainWa {
+            color: green;
+            font-family: $font_general;
+         }
+
+        .contactPage__mainWa:hover {
+            color: white;
+            background-color: green;
+        }
+        
+        .contactPage__mainIg {
+            color: purple;
+            font-family: $font_general;
+        }
+
+        .contactPage__mainIg:hover {
+            color: white;
+            background-color: purple;
+        }
+
+        .contactPage__mainMap {
+            color: rgba(0, 0, 255, 0.822);
+        }
+
+        .contactPage__formButton {
+            color: white;
+            background-color: red;
+        }
+
+        .formulario {
+            border-radius: 1.5rem;
+        }
+
+    }
+
+}

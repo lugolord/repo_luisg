@@ -1,0 +1,85 @@
+$font_general: 'Major Mono Display', monospace;
+
+.personalize {
+
+    overflow-x: hidden;
+
+    p {
+        span {
+            display: block;
+        }
+    }
+
+    h1 {
+
+        font-family: $font_general;
+        color: skyblue;
+
+    }
+
+    .nav-pills {
+
+        font-family: $font_general;
+
+        a {
+            color: skyblue;
+        }
+
+        a:hover {
+            color: white;
+            background-color: skyblue;
+        }
+    }
+
+    .main__p {
+
+        font-family: $font_general;
+        line-height: 30px;
+        color: yellow;
+        background-color: black;
+        border-radius: 1.5rem;
+
+    }
+
+    .formulario {
+
+        background-color: skyblue;
+        border-radius: 1.5rem;
+        font-family: $font_general;
+
+    }
+
+    .personalize__navDesktop {
+        
+        height: 40px;
+
+        a {
+            
+            font-family: $font_general;
+            color: black;
+
+        }
+
+        a:hover {
+            background-color: skyblue;
+        }
+    }
+
+    blockquote {
+
+        border-radius: 1.5rem;
+        background-color: black;
+        
+        p {
+
+            font-family: $font_general;
+            color: white;
+
+        }
+
+        cite {
+            color: white;
+        }
+
+    }
+}
