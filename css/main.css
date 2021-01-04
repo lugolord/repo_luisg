@@ -193,7 +193,8 @@
     color: white; }
 
 .contactPage .contactPage__header .nav-pills {
-  font-family: "Major Mono Display", monospace; }
+  font-family: "Major Mono Display", monospace;
+  z-index: 2; }
   .contactPage .contactPage__header .nav-pills .dropdown-toggle {
     color: white; }
   .contactPage .contactPage__header .nav-pills a {

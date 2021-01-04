@@ -29,6 +29,8 @@ $font_general: 'Major Mono Display', monospace;
             
             font-family: $font_general;
 
+            z-index: 2;
+
             .dropdown-toggle {
                 color: white;
             }
