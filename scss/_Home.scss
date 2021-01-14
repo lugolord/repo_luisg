@@ -1,9 +1,16 @@
 $font_general: 'Major Mono Display', monospace;
 
 @media (max-width: 991px) {
+
     .d-lg-menos-none {
         display: none!important
     }
+
+}
+
+.bodyHome {
+    margin: 0;
+    margin-bottom: 100px;
 }
 
 .home {
@@ -25,12 +32,13 @@ $font_general: 'Major Mono Display', monospace;
         }
 
         a:hover {
-            background-color: turquoise;
+            background-color: black;
+            color: white;
         }
 
     }
 
-    .home__mainMobile {
+    .home__main {
         
         background-color: black;
 
@@ -53,7 +61,7 @@ $font_general: 'Major Mono Display', monospace;
 
     }
 
-    .home__sectionMobile {
+    .home__section {
 
         h3 {
             font-family: $font_general;
@@ -62,7 +70,9 @@ $font_general: 'Major Mono Display', monospace;
     }
 
     footer {
-        background-color: gray; 
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 
 }

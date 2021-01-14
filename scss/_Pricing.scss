@@ -1,14 +1,16 @@
 $font_general: 'Major Mono Display', monospace;
 
+.bodyPricing {
+    background-color: greenyellow;
+}
+
 .pricing {
 
     .pricing__header {
 
         h1 {
-
             font-family: $font_general;
-            color: greenyellow;
-
+            color: white;
         }
 
         .pricing__headerNavDesktop {
@@ -16,12 +18,13 @@ $font_general: 'Major Mono Display', monospace;
             height: 40px;
             
             a {
+                background-color: white;
                 font-family: $font_general;
                 color: black;
             }
 
             a:hover {
-                background-color: greenyellow;
+                color: greenyellow;
             }
 
         }
@@ -35,8 +38,8 @@ $font_general: 'Major Mono Display', monospace;
         }
 
         a:hover {
-            color: white;
-            background-color: greenyellow;
+            color: black;
+            background-color: white;
         }
 
     }
@@ -46,21 +49,17 @@ $font_general: 'Major Mono Display', monospace;
 .pricing__p {
 
     .p1 {
-
         background-color: black;
         font-family: $font_general;
         border-radius: 1.5rem;
         color: yellow;
-
     }
 
     .p2 {
-
         background-color: black;
         font-family: $font_general;
         border-radius: 1.5rem;
         color: white;
-
     }
 
 }
@@ -71,7 +70,6 @@ $font_general: 'Major Mono Display', monospace;
     border-radius: 1rem;
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-    background-color: greenyellow;
 }
   
 .pricing hr {

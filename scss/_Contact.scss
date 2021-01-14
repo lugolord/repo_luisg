@@ -1,12 +1,16 @@
 $font_general: 'Major Mono Display', monospace;
 
+.bodyContact {
+    background-color: tomato;
+}
+
 .contactPage {
 
     .contactPage__header {
 
         h1 {
             font-family: $font_general;
-            color: red;
+            color: white;
         }
 
         .contactPage__headerNavDesktop {
@@ -15,12 +19,12 @@ $font_general: 'Major Mono Display', monospace;
             height: 40px;
 
             a {
+                background-color: white;
                 color: black;
             }
 
             a:hover {
-                background-color: tomato;
-                color: white;
+                color: tomato;
             }
 
         }
@@ -36,12 +40,12 @@ $font_general: 'Major Mono Display', monospace;
             }
 
             a {
-                color: red;
+                color: tomato;
             }
     
             a:hover {
-                color: white;
-                background-color: red;
+                color: black;
+                background-color: white;
             }
 
         }
@@ -52,6 +56,10 @@ $font_general: 'Major Mono Display', monospace;
 
         font-family: $font_general;
 
+        i {
+            color:white;
+        }
+
         span {
             display: block;
         }
@@ -60,29 +68,27 @@ $font_general: 'Major Mono Display', monospace;
 
             font-family: $font_general;
 
-            background-color: tomato;
+            background-color: black;
 
             color: white;
 
         }
 
         .contactPage__mainWa {
-            color: green;
+            color: white;
             font-family: $font_general;
          }
 
         .contactPage__mainWa:hover {
-            color: white;
             background-color: green;
         }
         
         .contactPage__mainIg {
-            color: purple;
+            color: white;
             font-family: $font_general;
         }
 
         .contactPage__mainIg:hover {
-            color: white;
             background-color: purple;
         }
 

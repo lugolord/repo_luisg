@@ -2,6 +2,10 @@
   .d-lg-menos-none {
     display: none !important; } }
 
+.bodyHome {
+  margin: 0;
+  margin-bottom: 100px; }
+
 .home {
   overflow-x: hidden;
   width: 100%;
@@ -11,68 +15,72 @@
   .home .home__header a {
     color: black; }
   .home .home__header a:hover {
-    background-color: turquoise; }
-  .home .home__mainMobile {
+    background-color: black;
+    color: white; }
+  .home .home__main {
     background-color: black; }
-    .home .home__mainMobile h2 {
+    .home .home__main h2 {
       color: yellow; }
-    .home .home__mainMobile p {
+    .home .home__main p {
       color: white; }
-    .home .home__mainMobile a {
+    .home .home__main a {
       color: white; }
-    .home .home__mainMobile a:hover {
+    .home .home__main a:hover {
       background-color: white;
       color: black; }
-  .home .home__sectionMobile h3 {
+  .home .home__section h3 {
     font-family: "Major Mono Display", monospace; }
   .home footer {
-    background-color: gray; }
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
 
 @media (max-width: 767px) {
   .d-md-menos-none {
     display: none !important; } }
 
-.gallery h1 {
-  font-family: "Major Mono Display", monospace;
-  color: violet; }
+.bodyGallery {
+  background-color: violet; }
 
-.gallery h2 {
+.gallery {
   font-family: "Major Mono Display", monospace; }
-
-.gallery .nav-pills {
-  font-family: "Major Mono Display", monospace; }
+  .gallery h1 {
+    color: violet; }
   .gallery .nav-pills a {
     color: violet; }
   .gallery .nav-pills a:hover {
-    color: white;
-    background-color: violet; }
-
-.gallery .header__navDesktop {
-  height: 40px; }
-  .gallery .header__navDesktop a {
-    font-family: "Major Mono Display", monospace;
+    background-color: white;
     color: black; }
-  .gallery .header__navDesktop a:hover {
-    background-color: violet; }
+  .gallery .header__navDesktop {
+    height: 40px; }
+    .gallery .header__navDesktop a {
+      background-color: white;
+      color: black; }
+    .gallery .header__navDesktop a:hover {
+      color: violet; }
+
+.bodyPricing {
+  background-color: greenyellow; }
 
 .pricing .pricing__header h1 {
   font-family: "Major Mono Display", monospace;
-  color: greenyellow; }
+  color: white; }
 
 .pricing .pricing__header .pricing__headerNavDesktop {
   height: 40px; }
   .pricing .pricing__header .pricing__headerNavDesktop a {
+    background-color: white;
     font-family: "Major Mono Display", monospace;
     color: black; }
   .pricing .pricing__header .pricing__headerNavDesktop a:hover {
-    background-color: greenyellow; }
+    color: greenyellow; }
 
 .pricing .nav-pills a {
   color: greenyellow; }
 
 .pricing .nav-pills a:hover {
-  color: white;
-  background-color: greenyellow; }
+  color: black;
+  background-color: white; }
 
 .pricing__p .p1 {
   background-color: black;
@@ -91,8 +99,7 @@
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  background-color: greenyellow; }
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); }
 
 .pricing hr {
   margin: 1.5rem 0;
@@ -139,20 +146,23 @@
   .pricing .card:hover .btn {
     opacity: 1; } }
 
+.bodyPersonalize {
+  background-color: skyblue; }
+
 .personalize {
   overflow-x: hidden; }
   .personalize p span {
     display: block; }
   .personalize h1 {
     font-family: "Major Mono Display", monospace;
-    color: skyblue; }
+    color: white; }
   .personalize .nav-pills {
     font-family: "Major Mono Display", monospace; }
     .personalize .nav-pills a {
       color: skyblue; }
     .personalize .nav-pills a:hover {
-      color: white;
-      background-color: skyblue; }
+      color: black;
+      background-color: white; }
   .personalize .main__p {
     font-family: "Major Mono Display", monospace;
     line-height: 30px;
@@ -160,37 +170,32 @@
     background-color: black;
     border-radius: 1.5rem; }
   .personalize .formulario {
-    background-color: skyblue;
-    border-radius: 1.5rem;
+    background-color: white;
     font-family: "Major Mono Display", monospace; }
   .personalize .personalize__navDesktop {
     height: 40px; }
     .personalize .personalize__navDesktop a {
+      background-color: white;
       font-family: "Major Mono Display", monospace;
       color: black; }
     .personalize .personalize__navDesktop a:hover {
-      background-color: skyblue; }
-  .personalize blockquote {
-    border-radius: 1.5rem;
-    background-color: black; }
-    .personalize blockquote p {
-      font-family: "Major Mono Display", monospace;
-      color: white; }
-    .personalize blockquote cite {
-      color: white; }
+      color: skyblue; }
+
+.bodyContact {
+  background-color: tomato; }
 
 .contactPage .contactPage__header h1 {
   font-family: "Major Mono Display", monospace;
-  color: red; }
+  color: white; }
 
 .contactPage .contactPage__header .contactPage__headerNavDesktop {
   font-family: "Major Mono Display", monospace;
   height: 40px; }
   .contactPage .contactPage__header .contactPage__headerNavDesktop a {
+    background-color: white;
     color: black; }
   .contactPage .contactPage__header .contactPage__headerNavDesktop a:hover {
-    background-color: tomato;
-    color: white; }
+    color: tomato; }
 
 .contactPage .contactPage__header .nav-pills {
   font-family: "Major Mono Display", monospace;
@@ -198,30 +203,30 @@
   .contactPage .contactPage__header .nav-pills .dropdown-toggle {
     color: white; }
   .contactPage .contactPage__header .nav-pills a {
-    color: red; }
+    color: tomato; }
   .contactPage .contactPage__header .nav-pills a:hover {
-    color: white;
-    background-color: red; }
+    color: black;
+    background-color: white; }
 
 .contactPage .contactPage__main {
   font-family: "Major Mono Display", monospace; }
+  .contactPage .contactPage__main i {
+    color: white; }
   .contactPage .contactPage__main span {
     display: block; }
   .contactPage .contactPage__main .contactPage__mainP1 {
     font-family: "Major Mono Display", monospace;
-    background-color: tomato;
+    background-color: black;
     color: white; }
   .contactPage .contactPage__main .contactPage__mainWa {
-    color: green;
+    color: white;
     font-family: "Major Mono Display", monospace; }
   .contactPage .contactPage__main .contactPage__mainWa:hover {
-    color: white;
     background-color: green; }
   .contactPage .contactPage__main .contactPage__mainIg {
-    color: purple;
+    color: white;
     font-family: "Major Mono Display", monospace; }
   .contactPage .contactPage__main .contactPage__mainIg:hover {
-    color: white;
     background-color: purple; }
   .contactPage .contactPage__main .contactPage__mainMap {
     color: rgba(0, 0, 255, 0.822); }

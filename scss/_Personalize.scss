@@ -1,5 +1,9 @@
 $font_general: 'Major Mono Display', monospace;
 
+.bodyPersonalize {
+    background-color: skyblue;
+} 
+
 .personalize {
 
     overflow-x: hidden;
@@ -13,7 +17,7 @@ $font_general: 'Major Mono Display', monospace;
     h1 {
 
         font-family: $font_general;
-        color: skyblue;
+        color: white;
 
     }
 
@@ -26,8 +30,8 @@ $font_general: 'Major Mono Display', monospace;
         }
 
         a:hover {
-            color: white;
-            background-color: skyblue;
+            color: black;
+            background-color: white;
         }
     }
 
@@ -42,11 +46,8 @@ $font_general: 'Major Mono Display', monospace;
     }
 
     .formulario {
-
-        background-color: skyblue;
-        border-radius: 1.5rem;
+        background-color: white;
         font-family: $font_general;
-
     }
 
     .personalize__navDesktop {
@@ -54,32 +55,14 @@ $font_general: 'Major Mono Display', monospace;
         height: 40px;
 
         a {
-            
+            background-color: white;
             font-family: $font_general;
             color: black;
-
         }
 
         a:hover {
-            background-color: skyblue;
+            color: skyblue;
         }
     }
 
-    blockquote {
-
-        border-radius: 1.5rem;
-        background-color: black;
-        
-        p {
-
-            font-family: $font_general;
-            color: white;
-
-        }
-
-        cite {
-            color: white;
-        }
-
-    }
 }

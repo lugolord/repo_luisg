@@ -6,28 +6,27 @@ $font_general: 'Major Mono Display', monospace;
     }
 }
 
+.bodyGallery {
+    background-color: violet;
+}
+
 .gallery {
 
+    font-family: $font_general;
+
     h1 {
-        font-family: $font_general;
         color: violet;
     }
 
-    h2 {
-        font-family: $font_general;
-    }
-
     .nav-pills {
-
-        font-family: $font_general;
 
         a {
             color: violet;
         }
 
         a:hover {
-            color: white;
-            background-color: violet;
+            background-color: white;
+            color: black;
         }
 
     }
@@ -37,12 +36,12 @@ $font_general: 'Major Mono Display', monospace;
         height: 40px;
 
         a {
-            font-family: $font_general;
+            background-color: white;
             color: black;
         }
 
         a:hover {
-            background-color: violet;
+            color: violet;
         }
 
     }
