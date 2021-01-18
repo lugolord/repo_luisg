@@ -1,0 +1,116 @@
+$font_general: 'Major Mono Display', monospace;
+
+.bodyContact {
+    background-color: rgba(255, 99, 71, 0.925);
+}
+
+.contactPage {
+
+    .contactPage__header {
+
+        h1 {
+            font-family: $font_general;
+            color: white;
+        }
+
+        .contactPage__headerNavDesktop {
+
+            font-family: $font_general;
+            height: 40px;
+
+            a {
+                background-color: white;
+                color: black;
+            }
+
+            a:hover {
+                color: tomato;
+            }
+
+        }
+
+        .nav-pills {
+            
+            font-family: $font_general;
+
+            z-index: 2;
+
+            .dropdown-toggle {
+                color: white;
+            }
+
+            a {
+                color: black;
+            }
+    
+            a:hover {
+                color:white;
+                background-color: black;
+            }
+
+        }
+
+    }
+    
+    .contactPage__main {
+
+        font-family: $font_general;
+
+        .fa-grin-wink {
+            color: black;
+        }
+
+        span {
+            display: block;
+        }
+
+        .contactPage__mainP1 {
+
+            font-family: $font_general;
+
+            @media (max-width: 991px) {
+
+                background-color: black;
+                color:white
+            
+            }
+
+            color: black;
+
+        }
+
+        .contactPage__mainWa {
+            color: white;
+            font-family: $font_general;
+         }
+
+        .contactPage__mainWa:hover {
+            background-color: red;
+        }
+        
+        .contactPage__mainIg {
+            color: white;
+            font-family: $font_general;
+        }
+
+        .contactPage__mainIg:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .contactPage__mainMap {
+            color: rgba(0, 0, 255, 0.822);
+        }
+
+        .contactPage__formButton {
+            color: white;
+            background-color: red;
+        }
+
+        .formulario {
+            border-radius: 1.5rem;
+        }
+
+    }
+
+}

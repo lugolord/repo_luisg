@@ -1,0 +1,51 @@
+$font_general: 'Major Mono Display', monospace;
+
+@media (max-width: 767px) {
+    .d-md-menos-none {
+        display: none!important
+    }
+}
+
+.bodyGallery {
+    background-color: violet;
+}
+
+.gallery {
+
+    font-family: $font_general;
+
+    h1 {
+        color: white;
+    }
+
+    .nav-pills {
+
+        z-index: 100;
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            background-color: black;
+            color: white;
+        }
+
+    }
+
+    .header__navDesktop {
+
+        height: 40px;
+
+        a {
+            background-color: white;
+            color: black;
+        }
+
+        a:hover {
+            color: violet;
+        }
+
+    }
+
+}
